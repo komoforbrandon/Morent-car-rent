@@ -47,8 +47,8 @@
                     <div class="location">
                         <form action="">
                             <label for="location"><b>Location</b></label><br>
-                            <select name="city" title="select city">
-                                <option value="">Select your city </option>
+                            <select name="city" class="picklocation" title="pick-up city">
+                                <option value="city">Select your city </option>
                                 <option value="yde">Yaounde</option>
                                 <option value="bda">Bamenda</option>
                                 <option value="dla">Douala</option>
@@ -63,7 +63,7 @@
                     <div class="date">
                         <form action="">
                             <label for="date"><b>Date</b></label><br>
-                            <select name="date" id="date" title="select date">
+                            <select name="date" class="pickdate" title="pick-up date">
                                 <option value="">select your date</option>
                             </select>
                         </form>
@@ -71,7 +71,7 @@
                     <div class="time">
                         <form action="">
                             <label for="date"><b>Time</b></label><br>
-                            <select name="time" title="select time">
+                            <select name="time" class="picktime" title="pick-up time">
                                 <option value="">select your time</option>
                             </select>
                         </form>
@@ -81,7 +81,7 @@
             <div class="sec2switch">
                 <p>&#x21C5;</p>
             </div>
-            <div class="pickup">
+            <div class="pickup" title="This is drop-off">
                 <form action="">
                     <input type="radio" name="drop-off" id="drop-off" checked>
                     <label for="drop-off">Drop-Off</label>
@@ -90,7 +90,7 @@
                     <div class="location">
                         <form action="">
                             <label for="location"><b>Location</b></label><br>
-                            <select name="city" id="city" title="select city">
+                            <select name="city" class="picklocation" title="Drop-Off city">
                                 <option value="city">Select your city</option>
                                 <option value="yde">Yaounde</option>
                                 <option value="bda">Bamenda</option>
@@ -106,7 +106,7 @@
                     <div class="date">
                         <form action="">
                             <label for="date"><b>Date</b></label><br>
-                            <select name="date" id="date" title="select date">
+                            <select name="date" class="pickdate" title="Drop-Off date">
                                 <option value="">select your date</option>
                             </select>
                         </form>
@@ -114,7 +114,7 @@
                     <div class="time">
                         <form action="">
                             <label for="date"><b>Time</b></label><br>
-                            <select name="time" id="time" title="select time">
+                            <select name="time" class="picktime" title="Drop-Off time">
                                 <option value="">select your time</option>
                             </select>
                         </form>
@@ -348,8 +348,8 @@
             </div>
             <div class="privacy">
             <ul>
-                <li><a href="#">Privacy & Policy</a></li>
-                <li><a href="#">Terms & Condition</a></li>
+                <li><a href="#">Privacy &amp; Policy</a></li>
+                <li><a href="#">Terms &amp; Condition</a></li>
             </ul>
             </div>
         </section>

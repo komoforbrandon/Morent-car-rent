@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,26 +12,26 @@
 <body>
     <header>
         <div class="logo-container">
-            <img src="assets/images/Logo.png" alt="Morrent Logo">
+            <img src="assets/images/Logo.png" alt="Morrent Logo" height="61%">
             <form action="">
                 <label for="gsearch"></label>
-                <input type="search" id="search" name="search" placeholder="&#x1F50D; Search Something here">
-                <div class="headersubpro">
-                    <img src="assets/images/Likex.png" alt=" Like icon">
-                    <img src="assets/images/Notification.png" alt="Notification icon">
-                    <img src="assets/images/Profil.png" alt="Profile icon">
-                </div>
+                <input type="search" class="searchx" name="search" placeholder="Search Something here">
             </form>
+        </div>
+        <div class="headersubpro">
+            <img src="assets/images/Likex.png" alt=" Like icon">
+            <img src="assets/images/Notification.png" alt="Notification icon">
+            <img src="assets/images/Profil.png" alt="Profile icon">
         </div>
     </header>
     <main>
         <section class="section1">
-            <div class="sec1a">
+            <div class="sec1a similar">
                 <h3>The Best Platform for Car Rental</h3>
                 <p>Ease of doing a car rental safely and reliably. Of course at a low price</p>
                 <button type="button">Rental Car</button>
             </div>
-            <div class="sec1b">
+            <div class="sec1b similar">
                 <h3>Easy way to rent a car at a low price</h3>
                 <p>Providing cheap car rental services and safe and comfortable facilities.</p>
                 <button type="button">Rental Car.</button>
@@ -40,7 +41,7 @@
             <div class="pickup">
                 <form action="">
                     <input type="radio" name="pick-up" id="pickup" checked>
-                    <label for="pickup">Pick-Up</label>
+                    <label for="pickup" class="pickdesgn">Pick-Up</label>
                 </form>
                 <div class="sec2ai">
                     <div class="location">
@@ -59,7 +60,7 @@
                         <form action="">
                             <label for="date"><b>Date</b></label><br>
                             <select name="date" class="pickdate" title="pick-up date">
-                                <option value="">select your date</option>
+                                <option value="">select your date </option>
                             </select>
                         </form>
                     </div>
@@ -74,12 +75,12 @@
                 </div>
             </div>
             <div class="sec2switch">
-                <p>&#x21C5;</p>
+                <button type="button">&#x21C5;</button>
             </div>
             <div class="drop-off" title="This is drop-off">
                 <form action="">
                     <input type="radio" name="drop-off" id="drop-off" checked>
-                    <label for="drop-off">Drop-Off</label>
+                    <label for="drop-off" class="pickdesgn">Drop-Off</label>
                 </form>
                 <div class="sec2aii">
                     <div class="location">
@@ -116,30 +117,47 @@
 
         <section class="popularcars">
             <div class="popularheader">
-                <p>Popular Car</p>
+                <p id="pop-header">Popular Car</p>
                 <a href="#" target="_self" rel="noopener noreferrer">View All</a>
             </div>
             <div class="car-container">
                 <div class="cardesign car-one">
-                    <div class="carheader">
+                    <div class="carhdesign  carheader">
                         <p><b>Koenigsegg</b> <br> <span>Sport</span></p>
-                        <img src="assets/images/heart.png" alt="heart icon">
+                        <img src="assets/images/heart.png" alt="heart icon" height="100%">
                     </div>
                     <img src="assets/images/cary.png" alt="Koenigsegg sport car" class="carimg">
-                    <img src="assets/images/Spesification.png" alt="Spesification for Koenigsegg">
+                    <div class="carspec" title="Spesification for Koenigsegg sport car">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for Koenigsegg sport car"><span>
+                                90L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for Koenigsegg sport car"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png"
+                                alt="profile-user for Koenigsegg sport car"><span>2
+                                People</span></div>
+                    </div>
                     <div class="carprice">
                         <p><b>&dollar;99.00/</b><span>day</span></p>
                         <button type="button">Rent Now</button>
                     </div>
                 </div>
 
-                <div class="car2">
-                    <div class="cardesign carheader-one">
+                <div class="cardesign car-two">
+                    <div class="carhdesign carheader-one">
                         <p><b>Nissan GT-R </b><br> <span>Sport</span></p>
-                        <img src="assets/images/Like.png" alt="Like icon for Nissan Car">
+                        <img src="assets/images/Like.png" alt="Like icon for Nissan Car" height="100%">
                     </div>
                     <img src="assets/images/Car (1).png" alt="Nissan GT-R sport car" class="carimg">
-                    <img src="assets/images/Spesification (1).png" alt="Spesification for Nissan GT-R">
+                    <div class="carspec" title="Spesification for Nissan GT-R car">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for Nissan GT-R car"><span>
+                                80L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for Nissan GT-R car"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for Nissan GT-R car"><span>2
+                                People</span></div>
+                    </div>
                     <div class="carprice" data-price="70">
                         <p><b>&dollar;70.00/</b><span>day <br> &dollar;100.00</span></p>
                         <button type="button">Rent Now</button>
@@ -147,12 +165,20 @@
                 </div>
 
                 <div class="cardesign car-three">
-                    <div class="carheader-three">
+                    <div class="carhdesign carheader-three">
                         <p><b>Rolls-Royce</b> <br> <span>Sedan</span></p>
-                        <img src="assets/images/heart.png" alt="heart icon">
+                        <img src="assets/images/heart.png" alt="heart icon" height="100%">
                     </div>
                     <img src="assets/images/Car.png" alt="Rolls-Royce car" class="carimg">
-                    <img src="assets/images/Spesification (2).png" alt="Spesification for Koenigsegg">
+                    <div class="carspec" title="Spesification for Rolls-Royce car">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for Rolls-Royce car"><span>
+                                70L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for Rolls-Royce car"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for Rolls-Royce car"><span>4
+                                People</span></div>
+                    </div>
                     <div class="carprice">
                         <p><b>&dollar;96.00/</b><span>day</span></p>
                         <button type="button">Rent Now</button>
@@ -160,12 +186,20 @@
                 </div>
 
                 <div class="cardesign car-four">
-                    <div class="carheader-four">
+                    <div class="carhdesign carheader-four">
                         <p><b>Nissan GT-Rx </b><br> <span>Sport</span></p>
-                        <img src="assets/images/Like.png" alt="Like for x icon">
+                        <img src="assets/images/Like.png" alt="Like for x icon" height="100%">
                     </div>
                     <img src="assets/images/Car (1).png" alt="Nissan GT-Rx sport car" class="carimg">
-                    <img src="assets/images/Spesification (1).png" alt="Spesification for Nissan GT-Rx">
+                    <div class="carspec" title="Spesification for Nissan GT-Rx">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for Nissan GT-Rx"><span>
+                                80L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for Nissan GT-Rx"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for Nissan GT-Rx"><span>2
+                                People</span></div>
+                    </div>
                     <div class="carprice" data-price="80">
                         <p><b>&dollar;80.00/</b><span>day <br> &dollar;100.00</span></p>
                         <button type="button">Rent Now</button>
@@ -176,15 +210,22 @@
         </section>
 
         <section class="recomendation-car">
-            <p><span>Recomendation Car</span></p>
+            <p id="rec-header"><span>Recomendation Car</span></p>
             <div class="rec-carcontainer">
                 <div class="cardesign car-five">
-                    <div class="carheader-five">
+                    <div class="carhdesign carheader-five">
                         <p><b>All New Rush </b><br> <span>Suv</span></p>
-                        <img src="assets/images/Like.png" alt="Like Rush Car">
+                        <img src="assets/images/Like.png" alt="Like Rush Car" height="100%">
                     </div>
                     <img src="assets/images/Car (2).png" alt="All New Rush car" class="carimg">
-                    <img src="assets/images/Spesification (3).png" alt="Spesification for Nissan GT-R">
+                    <div class="carspec" title="Spesification for All New Rush">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for All New Rush"><span>
+                                70L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for All New Rush"><span> Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for All New Rush"><span>6
+                                People</span></div>
+                    </div>
                     <div class="carprice">
                         <p><b>&dollar;72.00/</b><span>day <br> &dollar;80.00</span></p>
                         <button type="button">Rent Now</button>
@@ -192,12 +233,20 @@
                 </div>
 
                 <div class="cardesign car-six">
-                    <div class="carheader-six">
+                    <div class="carhdesign carheader-six">
                         <p><b>CR-Vx</b> <br> <span>Suv</span></p>
-                        <img src="assets/images/heart.png" alt="Like CR-Vx Car">
+                        <img src="assets/images/heart.png" alt="Like CR-Vx Car" height="100%">
                     </div>
                     <img src="assets/images/Car (3).png" alt="CR-Vx car" class="carimg">
-                    <img src="assets/images/Spesificationx.png" alt="Spesification for CR-Vx">
+                    <div class="carspec" title="Spesification for CR-Vx">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for CR-Vx"><span>
+                                80L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for CR-Vx"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for CR-Vx"><span>6
+                                People</span></div>
+                    </div>
                     <div class="carprice" data-price="80">
                         <p><b>&dollar;80.00/</b><span>day</span></p>
                         <button type="button">Rent Now</button>
@@ -205,12 +254,20 @@
                 </div>
 
                 <div class="cardesign car-seven">
-                    <div class="carheader-seven">
+                    <div class="carhdesign carheader-seven">
                         <p><b>All new Terios</b><br> <span>Suv</span></p>
-                        <img src="assets/images/Like.png" alt="Like All New Terios Car">
+                        <img src="assets/images/Like.png" alt="Like All New Terios Car" height="100%">
                     </div>
                     <img src="assets/images/Car (4).png" alt="CR-V car" class="carimg">
-                    <img src="assets/images/Spesificationx.png" alt="Spesification for Nissan GT-R">
+                    <div class="carspec" title="Spesification for All new Terios">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for All new Terios"><span>
+                                90L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for All new Terios"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for All new Terios"><span>6
+                                People</span></div>
+                    </div>
                     <div class="carprice" data-price="74">
                         <p><b>&dollar;74.00/</b><span>day</span></p>
                         <button type="button">Rent Now</button>
@@ -218,12 +275,20 @@
                 </div>
 
                 <div class="cardesign car-eight">
-                    <div class="carheader-eight">
+                    <div class="carhdesign carheader-eight">
                         <p><b>CR-V </b><br> <span>Suv</span></p>
-                        <img src="assets/images/heart.png" alt="Like Rush Car">
+                        <img src="assets/images/heart.png" alt="Like Rush Car" height="100%">
                     </div>
                     <img src="assets/images/Car (5).png" alt="CR-V car" class="carimg">
-                    <img src="assets/images/Spesificationx.png" alt="Spesification for Nissan GT-R">
+                    <div class="carspec" title="Spesification for CR-V">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for CR-V"><span>
+                                80L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for CR-V"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for CR-V"><span>6
+                                People</span></div>
+                    </div>
                     <div class="carprice">
                         <p><b>&dollar;80.00/</b><span>day</span></p>
                         <button type="button">Rent Now</button>
@@ -231,12 +296,20 @@
                 </div>
 
                 <div class="cardesign car-nine">
-                    <div class="carheader-nine">
+                    <div class="carhdesign carheader-nine">
                         <p><b>MGZX Exclusice</b> <br> <span>Hatchback</span></p>
-                        <img src="assets/images/heart.png" alt="Like MGZX Car">
+                        <img src="assets/images/heart.png" alt="Like MGZX Car" height="100%">
                     </div>
                     <img src="assets/images/Car (6).png" alt="MGZX car" class="carimg">
-                    <img src="assets/images/Spesification (2).png" alt="Spesification for MGZX">
+                    <div class="carspec" title="Spesification for MGZX Exclusice">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for MGZX Exclusice"><span>
+                                70L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for MGZX Exclusice"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for MGZX Exclusice"><span>4
+                                People</span></div>
+                    </div>
                     <div class="carprice">
                         <p><b>&dollar;76.00/</b><span>day <br>&dollar;80.00</span></p>
                         <button type="button">Rent Now</button>
@@ -244,12 +317,20 @@
                 </div>
 
                 <div class="cardesign car-ten">
-                    <div class="carheader-ten">
+                    <div class="carhdesign carheader-ten">
                         <p><b>New MGZS </b><br> <span>Suv</span></p>
-                        <img src="assets/images/Like.png" alt="Like New MGZS Car">
+                        <img src="assets/images/Like.png" alt="Like New MGZS Car" height="100%">
                     </div>
                     <img src="assets/images/Car (7).png" alt="New MGZS car" class="carimg">
-                    <img src="assets/images/Spesificationx.png" alt="Spesification for New MGZS">
+                    <div class="carspec" title="Spesification for New MGZS">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for New MGZS"><span>
+                                80L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for New MGZS"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for New MGZS"><span>6
+                                People</span></div>
+                    </div>
                     <div class="carprice" data-price="90">
                         <p><b>&dollar;90.00/</b><span>day</span></p>
                         <button type="button">Rent Now</button>
@@ -257,12 +338,20 @@
                 </div>
 
                 <div class="cardesign car-eleven">
-                    <div class="carheader-eleven">
+                    <div class="carhdesign carheader-eleven">
                         <p><b>MGZX Excite</b><br> <span>Hatchback</span></p>
-                        <img src="assets/images/heart.png" alt="Like MGZS excite Car">
+                        <img src="assets/images/heart.png" alt="Like MGZS excite Car" height="100%">
                     </div>
                     <img src="assets/images/Car (6).png" alt="MGZS excite car" class="carimg">
-                    <img src="assets/images/Spesification (5).png" alt="Spesification for MGZS excite">
+                    <div class="carspec" title="Spesification for MGZX Excite">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for MGZX Excite"><span>
+                                90L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for MGZX Excite"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for MGZX Excite"><span>4
+                                People</span></div>
+                    </div>
                     <div class="carprice">
                         <p><b>&dollar;74.00/</b><span>day</span></p>
                         <button type="button">Rent Now</button>
@@ -270,12 +359,20 @@
                 </div>
 
                 <div class="cardesign car-twelve">
-                    <div class="carheader-twelve">
+                    <div class="carhdesign carheader-twelve">
                         <p><b>New MGZs</b><br> <span>Suv</span></p>
-                        <img src="assets/images/Like.png" alt="Like New MGZs Car">
+                        <img src="assets/images/Like.png" alt="Like New MGZs Car" height="100%">
                     </div>
                     <img src="assets/images/Car (7).png" alt="New MGZs car" class="carimg">
-                    <img src="assets/images/Spesificationx.png" alt="Spesification for New MGZs">
+                    <div class="carspec" title="Spesification for New MGZs">
+                        <div> <img src="assets/images/gas-station.png" alt="gas station for New MGZs"><span>
+                                80L</span></div>
+                        <div><img src="assets/images/manualicon.png" alt="manual for New MGZs"><span>
+                                Manual</span>
+                        </div>
+                        <div><img src="assets/images/profile-2user.png" alt="profile-user for New MGZs"><span>6
+                                People</span></div>
+                    </div>
                     <div class="carprice" data-price="95">
                         <p><b>&dollar;95.00/</b><span>day</span></p>
                         <button type="button">Rent Now</button>
@@ -285,7 +382,7 @@
 
             <div class="showcars">
                 <p></p>
-                <button type="button">Show more car</button>
+                <button type="button" id="detail-btn">Show more car</button>
                 <p><span>120 Car</span></p>
             </div>
         </section>
@@ -298,7 +395,7 @@
                 <p><span>Our Vision is to provide convenience <br> and help increase your sales business.</span></p>
             </div>
             <div class="footernav">
-                <div class="about">
+                <div class="about community">
                     <h4>About</h4>
                     <ul>
                         <li><a href="#">How it works</a></li>
@@ -318,7 +415,7 @@
                     </ul>
                 </div>
 
-                <div class="community">
+                <div class="Social community">
                     <h4>Social</h4>
                     <ul>
                         <li><a href="#">Discord</a></li>
@@ -335,10 +432,10 @@
                 <p>&copy;2022 MORENT. All rights reserved</p>
             </div>
             <div class="privacy">
-            <ul>
-                <li><a href="#">Privacy &amp; Policy</a></li>
-                <li><a href="#">Terms &amp; Condition</a></li>
-            </ul>
+                <ul>
+                    <li><a href="#">Privacy &amp; Policy</a></li>
+                    <li><a href="#">Terms &amp; Condition</a></li>
+                </ul>
             </div>
         </section>
 

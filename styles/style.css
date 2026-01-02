@@ -33,7 +33,7 @@ a {
   margin-top: 6px;
 }
 
-.searchx  {
+.searchx {
   width: 500px;
   background-image: url("../assets/images/search-normal.png"), url("../assets/images/filter.png");
   background-repeat: no-repeat, no-repeat;
@@ -100,7 +100,6 @@ button {
   width: 60px;
   margin-top: 10px;
   margin-left: 4px;
-  
 }
 
 .sec1b button {

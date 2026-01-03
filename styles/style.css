@@ -272,9 +272,12 @@ footer .last {
   color: #000;
 }
 
+.mobilecopyright {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .normal-header,
-  .logo-container .xform,
   .copyright,
   .section1 .sec1b {
     display: none;
@@ -391,7 +394,7 @@ footer .last {
     gap: 8px;
     align-items: center;
   }
-  
+
   .rec-carcontainer .carspec div {
     margin: 0;
   }
@@ -406,5 +409,15 @@ footer .last {
 
   #detail-btn {
     margin: -17px 0 10px 1px;
+  }
+
+  #footerprivacy ul {
+    gap: 130px;
+  }
+
+  .mobilecopyright {
+    display: flex;
+    margin: 20px;
+    font-weight: 500;
   }
 }

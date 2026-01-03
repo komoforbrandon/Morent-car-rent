@@ -369,7 +369,7 @@ footer .last {
     display: grid;
     grid-template-columns: 50% 50%;
     line-height: 30px;
-    gap: 10px 100px;
+    gap: 10px 55px;
     overflow: hidden;
   }
 
@@ -377,6 +377,7 @@ footer .last {
     width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
+    height: 505px;
   }
 
   #pop-header,
@@ -396,6 +397,7 @@ footer .last {
 
   .car-container .cardesign {
     height: 75%;
+    width: 70%;
   }
 
   .rec-carcontainer {
@@ -405,7 +407,7 @@ footer .last {
 
   .metax {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 70% 35%;
   }
 
   .rec-carcontainer .carspec {
@@ -431,7 +433,7 @@ footer .last {
   }
 
   #footerprivacy ul {
-    gap: 100px;
+    gap: 90px;
     overflow: hidden;
   }
 

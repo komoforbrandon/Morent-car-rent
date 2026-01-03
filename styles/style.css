@@ -373,7 +373,6 @@ footer .last {
   .popularcars {
     width: 100%;
     overflow-x: scroll;
-    height: 61vh;
     overflow-y: hidden;
   }
 

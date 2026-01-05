@@ -145,7 +145,7 @@ form {
 }
 
 .confirmation button {
-  font-size: 18px;
+  font-size: 16px;
   background-color: #3563e9;
   border: none;
   border-radius: 5px;
@@ -251,13 +251,125 @@ footer .last {
   color: #000;
 }
 
+.totalprice {
+  font-size: 24px;
+  font-weight: 750;
+  margin-top: auto;
+}
+
 .mobilecopyright,
 .mobileview {
   display: none;
 }
 
 @media (max-width: 768px) {
-  body {
-    background-color: #eceef1;
+  .headersubpro .imgh1,
+  .headersubpro .imgh2,
+  .copyright,
+  .headersubpro .imgh3 {
+    display: none;
+  }
+
+  .logo-container img {
+    height: 20px;
+    margin-left: 0;
+  }
+
+  .headersubpro img {
+    margin-right: 20px;
+    height: 35px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 14px -4px;
+    margin-top: 5rem;
+  }
+
+  .rental-paymentform {
+    order: 2;
+  }
+
+  .rentalsummary {
+    order: 1;
+  }
+
+  form {
+    margin: 4px;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  section form div input {
+    width: 92%;
+  }
+
+  section form select {
+    width: 96%;
+  }
+
+  p {
+    font-weight: 450;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 17px;
+  }
+
+  label {
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  span {
+    color: #90a3bf;
+    font-size: 13px;
+    font-weight: 350;
+  }
+
+  #promobtn {
+    font-size: 14px;
+  }
+
+  #reviewicon {
+    width: 95%;
+  }
+
+  .pickdrop {
+    font-size: 15px;
+    color: black;
+    font-weight: 550;
+    line-height: 35px;
+  }
+
+  .totalprice {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  footer .part1 {
+    display: grid;
+    margin: 22px;
+  }
+
+  .footernav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    line-height: 30px;
+    gap: 10px 55px;
+    overflow: hidden;
+  }
+
+  #footerprivacy ul {
+    gap: 55px;
+    overflow: hidden;
+  }
+
+  .mobilecopyright {
+    display: flex;
+    margin: 20px;
+    font-weight: 500;
   }
 }

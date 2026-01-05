@@ -222,6 +222,10 @@ span {
   margin: auto;
 }
 
+.carspec div span {
+  margin: 2px auto;
+}
+
 .showcars {
   margin: 0 20px;
   display: flex;
@@ -403,7 +407,7 @@ footer .last {
 
   .car-container .cardesign {
     height: 75%;
-    width: 70%;
+    width: 65%;
   }
 
   .rec-carcontainer {
@@ -428,6 +432,10 @@ footer .last {
 
   .rec-carcontainer .cardesign {
     height: 70%;
+    width: 90%;
+    margin: auto; 
+    margin-left: -6px;
+    padding: 22px; 
   }
 
   .rec-carcontainer .carimg {

@@ -1,1 +1,253 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: #eceef1;
+}
+
+.normal-header {
+  background-color: #fff;
+  display: flex;
+  padding: 19px 12px;
+  justify-content: space-between;
+  position: fixed;
+  width: 99%;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-container img {
+  margin: 10px 0 0 7px;
+  cursor: pointer;
+}
+
+.headersubpro img {
+  cursor: pointer;
+  padding-right: 6px;
+}
+
+main {
+  margin: 14px;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.rentalsummary,
+.confirmation,
+.payment,
+.rentalcontainer,
+.billingcontainer {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 24px 16px;
+  height: fit-content;
+}
+
+p {
+  font-weight: 550;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+label {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+span {
+  color: #90a3bf;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.pickdrop {
+  font-size: 18px;
+  color: black;
+  font-weight: 550;
+  line-height: 35px;
+}
+
+.rentalheader,
+.infoheader,
+.paymentheader,
+.confheader,
+.billheader,
+.promo form {
+  display: flex;
+  justify-content: space-between;
+}
+
+section form div input,
+section form select {
+  padding: 14px;
+  border-radius: 10px;
+  background-color: #eef0f3;
+  border: none;
+  width: 90%;
+  margin: 12px 0;
+}
+
+form div select {
+  color: #90a3bf;
+  border-right: 10px solid #eef0f3;
+  width: 94%;
+}
+
+form {
+  margin: 6px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.paybit {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+  margin-left: -1px;
+}
+
+.paypal,
+.bitcoin,
+.confirmrent div,
+.paymentinfo {
+  background-color: #eceef1;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.bitcoin,
+.paypal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bitcoin img,
+.paypal img {
+  margin-top: 8px;
+  margin-right: 5px;
+  height: 50%;
+}
+
+.paymentinfo form div input {
+  background-color: #fff;
+}
+
+.paybit div input {
+  width: 20px;
+}
+
+.confirmation button {
+  font-size: 18px;
+  background-color: #3563e9;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 120px;
+  color: #fff;
+  margin: 12px 0;
+  cursor: pointer;
+}
+
+.carinfos,
+.price,
+.tax  {
+  display: flex;
+  margin: 20px;
+}
+
+.carname {
+  margin: auto;
+}
+
+.price,
+.tax {
+  justify-content: space-between;
+}
+
+.promo {
+  background-color: #eceef1;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#promobtn {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.promo form input{
+  border: none;
+  background-color: #eceef1;
+}
+
+.totalrent {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 6px;
+}
+
+footer {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  margin-bottom: -18px;
+}
+
+footer .part1 {
+  display: flex;
+  margin: 22px;
+  justify-content: space-between;
+}
+
+.footernav {
+  display: flex;
+  gap: 9rem;
+  line-height: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+.community li a:active,
+.community li a:hover,
+.community li a:link,
+.community li a:visited {
+  color: #90a3bf;
+}
+
+footer .last {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.privacy ul {
+  display: flex;
+  gap: 30px;
+}
+
+.privacy li a:active,
+.privacy li a:visited {
+  color: #000;
+}
+
+.mobilecopyright,
+.mobileview {
+  display: none;
+}

@@ -12,11 +12,7 @@
 <body>
     <header class="normal-header">
         <div class="logo-container">
-            <img src="../assets/images/Logo.png" alt="Morrent Logo" height="52%">
-            <form action="" class="xform">
-                <label for="gsearch"></label>
-                <input type="search" class="searchx" name="search" placeholder="Search Something here">
-            </form>
+            <img src="../assets/images/Logo.png" alt="Morrent Logo" height="50%">
         </div>
         <div class="headersubpro">
             <img src="../assets/images/Likex.png" alt=" Like icon" class="imgh1">
@@ -24,17 +20,6 @@
             <img src="../assets/images/Settings.png" alt="Setting icon">
             <img src="../assets/images/Profil.png" alt="Profile icon">
         </div>
-    </header>
-
-    <header class="mobile-header">
-        <div class="mobile-logo">
-            <img src="../assets/images/Logo.png" alt="Morrent Logo">
-            <img src="../assets/images/Profil.png" alt="Profile icon" id="profileicons" width="30px">
-        </div>
-        <form action="" class="xform mobileheadersearch" title="This is for mobile header">
-            <label for="gsearch"></label>
-            <input type="search" class="searchx" name="search" placeholder="Search Something here">
-        </form>
     </header>
 
     <main>
@@ -46,14 +31,18 @@
                 </div>
                 <div class="bill-info">
                     <form action="">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Your name">
-                        <label for="address">Address</label>
-                        <input type="text" name="address" id="address" placeholder="Address">
-                        <label for="number">Phone Number</label>
-                        <input type="tel" name="number" id="number" placeholder="Phone number">
-                        <label for="town">Town/City</label>
-                        <input type="text" name="town" id="town" placeholder="Town or city">
+                        <div> <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your name">
+                        </div>
+                        <div><label for="address">Address</label>
+                            <input type="text" name="address" id="address" placeholder="Address">
+                        </div>
+                        <div> <label for="number">Phone Number</label>
+                            <input type="tel" name="number" id="number" placeholder="Phone number">
+                        </div>
+                        <div><label for="town">Town/City</label>
+                            <input type="text" name="town" id="town" placeholder="Town or city">
+                        </div>
                     </form>
                 </div>
             </section>
@@ -67,36 +56,48 @@
                     <img src="../assets/images/mark.png" alt="This is a mark pickup icon"> <span
                         class="pickdrop">Pick-Up</span>
                     <form action="">
-                        <select name="location" id="dlocation" title="The is rental pickup ciry location">
-                            <option value=" ">Select your city</option>
-                            <option value="dla1">Douala</option>
-                            <option value="bda1">Bamenda</option>
-                            <option value="yde1">Yaounde</option>
-                        </select>
-                        <select name="time" id="dtime" title="This is rental pickup time">
-                            <option value=" ">Select your time</option>
-                        </select>
-                        <select name="date" id="ddate" title="This is rental pickup date">
-                            <option value="">Select your date</option>
-                        </select>
+                        <div> <label for="plocation">Location</label>
+                            <select name="location" id="plocation" title="The is rental pickup ciry location">
+                                <option value=" ">Select your city</option>
+                                <option value="dla1">Douala</option>
+                                <option value="bda1">Bamenda</option>
+                                <option value="yde1">Yaounde</option>
+                            </select>
+                        </div>
+                        <div><label for="ptime">Time</label>
+                            <select name="time" id="ptime" title="This is rental pickup time">
+                                <option value=" ">Select your time</option>
+                            </select>
+                        </div>
+                        <div><label for="pdate">Date</label>
+                            <select name="date" id="pdate" title="This is rental pickup date">
+                                <option value="">Select your date</option>
+                            </select>
+                        </div>
                     </form>
                 </div>
                 <div class="drop-off" title="This is drop-off container">
                     <img src="../assets/images/mark.png" alt="This is a mark drop-off icon"> <span
                         class="pickdrop">Drop-Off</span>
                     <form action="">
-                        <select name="location" id="plocation" title="The is rental drop-off ciry location">
-                            <option value=" ">Select your city</option>
-                            <option value="dla">Douala</option>
-                            <option value="bda">Bamenda</option>
-                            <option value="yde">Yaounde</option>
-                        </select>
-                        <select name="time" id="ptime" title="This is rental drop-off time">
-                            <option value=" ">Select your time</option>
-                        </select>
-                        <select name="date" id="pdate" title="This is rental drop-off date">
-                            <option value="">Select your date</option>
-                        </select>
+                        <div><label for="dlocation">Location</label>
+                            <select name="location" id="dlocation" title="The is rental drop-off ciry location">
+                                <option value=" ">Select your city</option>
+                                <option value="dla">Douala</option>
+                                <option value="bda">Bamenda</option>
+                                <option value="yde">Yaounde</option>
+                            </select>
+                        </div>
+                        <div><label for="dtime">Time</label>
+                            <select name="time" id="p\dtime" title="This is rental drop-off time">
+                                <option value=" ">Select your time</option>
+                            </select>
+                        </div>
+                        <div> <label for="ddate">Date</label>
+                            <select name="date" id="ddate" title="This is rental drop-off date">
+                                <option value="">Select your date</option>
+                            </select>
+                        </div>
                     </form>
                 </div>
             </section>
@@ -111,34 +112,39 @@
                         <div><img src="../assets/images/mark.png" alt="mark icon for payment"><span
                                 class="pickdrop">Credit
                                 Card</span></div>
-                        <img src="../assets/images/visa.png" alt="Visa icon for payment">
+                        <img src="../assets/images/visa.png" alt="Visa icon for payment" height="90%">
                     </div>
                     <form action="" class="cardinfo">
-                        <label for="cardnumber">Card Number</label>
-                        <input type="tel" name="cardnumber" id="cardnumber" placeholder="Card number">
-                        <label for="cardholder">Card Holder</label>
-                        <input type="text" name="cardholder" id="cardholder" placeholder="Card holder">
-                        <label for="exdate">Expiration Date</label>
-                        <input type="date" name="exdate" id="exdate" placeholder="DD/MM/YY">
-                        <label for="cvc">CVC</label>
-                        <input type="text" name="cvc" id="cvc" placeholder="CVC">
-                    </form>
-                    <form action="">
-                        <div class="paypal">
-                            <div>
-                                <input type="radio" name="paypal" id="paypal">
-                                <label for="paypal"> &nbsp;Paypal</label>
-                            </div>
-                            <img src="../assets/images/paypal.png" alt="Paypay icon for payment">
+                        <div><label for="cardnumber">Card Number</label>
+                            <input type="tel" name="cardnumber" id="cardnumber" placeholder="Card number">
                         </div>
-                        <div class="bitcoin">
-                            <div><input type="radio" name="paypal" id="bitcoin">
-                                <label for="bitcoin"> &nbsp;Bitcoin</label>
-                            </div>
-                            <img src="../assets/images/bitcoin.png" alt="Bitcoin icon for payment">
+                        <div> <label for="cardholder">Card Holder</label>
+                            <input type="text" name="cardholder" id="cardholder" placeholder="Card holder">
+                        </div>
+                        <div> <label for="exdate">Expiration Date</label>
+                            <input type="date" name="exdate" id="exdate">
+                        </div>
+                        <div><label for="cvc">CVC</label>
+                            <input type="text" name="cvc" id="cvc" placeholder="CVC">
                         </div>
                     </form>
                 </div>
+
+                <form action="" class="paybit">
+                    <div class="paypal">
+                        <div>
+                            <input type="radio" name="paypal" id="paypal">
+                            <label for="paypal"> &nbsp;Paypal</label>
+                        </div>
+                        <img src="../assets/images/paypal.png" alt="Paypay icon for payment">
+                    </div>
+                    <div class="bitcoin">
+                        <div><input type="radio" name="paypal" id="bitcoin">
+                            <label for="bitcoin"> &nbsp;Bitcoin</label>
+                        </div>
+                        <img src="../assets/images/bitcoin.png" alt="Bitcoin icon for payment">
+                    </div>
+                </form>
             </section>
 
             <section class="confirmation">
@@ -147,14 +153,17 @@
                             ready!</span></h3>
                     <p><span>Step 4 of 4</span></p>
                 </div>
-                <form action="">
-                    <input type="checkbox" name="policies" id="policy1">
-                    <label for="policy1">I agree with sending a Marketing and newsletter emails. NO spam,
-                        promissed!</label>
-                    <input type="checkbox" name="policies" id="policy2">
-                    <label for="policy2">I agree with our terms and conditions and privacy policy.</label>
+                <form action="" class="paybit confirmrent" title="This is confirmation">
+                    <div><input type="checkbox" name="policies" id="policy1">
+                        <label for="policy1">I agree with sending a Marketing and newsletter emails. NO spam,
+                            promissed!</label>
+                    </div>
+                    <div><input type="checkbox" name="policies" id="policy2">
+                        <label for="policy2">I agree with our terms and conditions and privacy policy.</label>
+                    </div>
                 </form>
-                <button type="button">Rent Now</button>
+                
+                <button type="button">Rent Now</button><br>
                 <img src="../assets/images/Layer.png" alt="Layer icon">
                 <p>All your data are safe <br><span>We are using the most advanced security to provide you the best
                         experience eve.</span></p>
@@ -182,17 +191,16 @@
             </div>
             <div class="promo">
                 <form action="">
-                    <input type="text" name="promocode" id="promocode">
-                    <label for="promocode"><button type="button">Apply Now</button></label>
+                    <input type="text" name="promocode" id="promocode" placeholder="Apply promo code">
+                    <input type="button" id="promobtn" value="Apply Now">
                 </form>
             </div>
-
+            <div class="totalrent">
+                <h3>Total Rental Price <br><span>Overall price and includes rental discount</span></h3>
+                <p>&dollar;80.00</p>
+            </div>
         </section>
-
-
     </main>
-
-
     <footer>
         <section class="part1">
             <div class="icon">
@@ -250,5 +258,4 @@
         </section>
     </footer>
 </body>
-
 </html>

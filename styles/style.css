@@ -314,6 +314,12 @@ footer .last {
     border-radius: 8px;
   }
 
+  #profileicons {
+    height: 28px;
+    margin-top: -6px;
+    margin-right: 8px;
+  }
+
   .drop-off select,
   .pickup select,
   span {
@@ -321,7 +327,7 @@ footer .last {
   }
 
   .similar {
-    height: 320px;
+    height: 300px;
     width: 95%;
     border-radius: 15px;
     margin: 1 auto;
@@ -329,14 +335,14 @@ footer .last {
   }
 
   .similar h3 {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 31px;
-    width: 93%;
+    width: 90%;
   }
 
   .similar p {
     font-size: 15px;
-    width: 92%;
+    width: 90%;
   }
 
   .section2 {

@@ -255,3 +255,7 @@ footer .last {
 .mobileview {
   display: none;
 }
+
+@media (max-width: 768px) {
+  
+}

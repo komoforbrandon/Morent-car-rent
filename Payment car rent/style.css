@@ -257,5 +257,7 @@ footer .last {
 }
 
 @media (max-width: 768px) {
-  
+  body {
+    background-color: #eceef1;
+  }
 }

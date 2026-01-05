@@ -83,8 +83,7 @@ span {
 .infoheader,
 .paymentheader,
 .confheader,
-.billheader,
-.promo form {
+.billheader {
   display: flex;
   justify-content: space-between;
 }
@@ -141,10 +140,6 @@ form {
   height: 50%;
 }
 
-.paymentinfo form div input {
-  background-color: #fff;
-}
-
 .paybit div input {
   width: 20px;
 }
@@ -163,7 +158,7 @@ form {
 
 .carinfos,
 .price,
-.tax  {
+.tax {
   display: flex;
   margin: 20px;
 }
@@ -183,15 +178,24 @@ form {
   border-radius: 10px;
 }
 
+.promo form {
+  display: flex;
+  justify-content: space-between;
+}
+
 #promobtn {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
 }
 
-.promo form input{
+.promo form input {
   border: none;
   background-color: #eceef1;
+}
+
+.paymentinfo form div input {
+  background-color: #fff;
 }
 
 .totalrent {

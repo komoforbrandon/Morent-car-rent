@@ -10,6 +10,11 @@ body {
   background-color: #eceef1;
 }
 
+.morent-logo {
+  color: #3563e9;
+  font-size: 30px;
+}
+
 .normal-header {
   background-color: #fff;
   display: flex;
@@ -23,7 +28,6 @@ body {
 .mobile-header {
   display: none;
   background-color: #fff;
-  padding: 24px 12px;
   justify-content: space-between;
   position: fixed;
   width: 100%;
@@ -111,7 +115,7 @@ button {
   cursor: pointer;
 }
 
-.sec2switch button {
+.sec2switch {
   width: 60px;
   margin-top: 10px;
   margin-left: 4px;
@@ -131,6 +135,13 @@ button {
   display: flex;
   justify-content: space-between;
   padding: 6px;
+}
+
+.pickdrop {
+  font-size: 20px;
+  color: black;
+  font-weight: 550;
+  line-height: 35px;
 }
 
 .pickup,
@@ -301,9 +312,14 @@ footer .last {
     padding: 8px 0;
   }
 
+  .sec2switch {
+    text-align: center;
+    margin: auto;
+  }
+
   .mobile-header {
     display: inline;
-    padding: 14px 8px;
+    padding: 12px 0;
   }
 
   .xform {
@@ -370,19 +386,6 @@ footer .last {
     margin: auto;
   }
 
-  footer .part1 {
-    display: grid;
-    margin: 22px;
-  }
-
-  .footernav {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    line-height: 30px;
-    gap: 10px 55px;
-    overflow: hidden;
-  }
-
   .popularcars {
     width: 100%;
     overflow-x: scroll;
@@ -413,6 +416,7 @@ footer .last {
   .rec-carcontainer {
     display: grid;
     grid-template-columns: 100%;
+    gap: 30px;
   }
 
   .metax {
@@ -430,8 +434,13 @@ footer .last {
     margin: 0;
   }
 
+  .rec-carcontainer .carspec div span {
+    text-align: start;
+    margin: auto 4px;
+  }
+
   .rec-carcontainer .cardesign {
-    height: 70%;
+    height: 280px;
     width: 90%;
     margin: auto;
     margin-left: -6px;
@@ -442,8 +451,25 @@ footer .last {
     padding: 7%;
   }
 
+  .showcars {
+    margin-top: 34px;
+  }
+
   #detail-btn {
     margin: -17px 0 10px 1px;
+  }
+
+  footer .part1 {
+    display: grid;
+    margin: 22px;
+  }
+
+  .footernav {
+    display: grid;
+    grid-template-columns: 100%;
+    line-height: 30px;
+    gap: 10px 55px;
+    overflow: hidden;
   }
 
   #footerprivacy ul {

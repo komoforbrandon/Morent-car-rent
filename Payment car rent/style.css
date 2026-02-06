@@ -10,6 +10,11 @@ body {
   background-color: #eceef1;
 }
 
+.morent-logo {
+  color: #3563e9;
+  font-size: 30px;
+}
+
 .normal-header {
   background-color: #fff;
   display: flex;
@@ -360,7 +365,6 @@ footer .last {
 
   .footernav {
     display: grid;
-    grid-template-columns: 50% 50%;
     line-height: 30px;
     gap: 10px 55px;
     overflow: hidden;

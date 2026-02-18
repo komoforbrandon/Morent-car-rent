@@ -420,6 +420,7 @@ footer .last {
     display: grid;
     grid-template-columns: 48% 48%;
     gap: 30px;
+    overflow: hidden;
   }
 
   .metax {
@@ -470,20 +471,13 @@ footer .last {
   .part1,
   .last {
     grid-template-columns: 100%;
+    overflow: hidden;
   }
 
   footer .part1 {
     display: grid;
     margin: 22px;
     width: 100%;
-  }
-
-  .footernav {
-    display: grid;
-    grid-template-columns: 100%;
-    line-height: 30px;
-    gap: 10px 55px;
-    overflow: hidden;
   }
 
   .mobilecopyright {
@@ -493,6 +487,7 @@ footer .last {
   }
 
   .footernav {
+    display: grid;
     grid-template-columns: 50% 50%;
     gap: 10px;
     width: 100%;
@@ -515,197 +510,15 @@ footer .last {
 }
 
 @media (max-width: 550px) {
-
-  .normal-header,
-  .copyright,
-  .popularheader,
-  .section1 .sec1b {
-    display: none;
-  }
-
-  .mobile-logo {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 18px;
-  }
-
-  .mobile-logo img {
-    height: 20px;
-    padding: 8px 0;
-  }
-
-  .sec2switch {
-    text-align: center;
-    margin: auto;
-  }
-
-  .mobile-header {
-    display: inline;
-    padding: 12px 0;
-  }
-
-  .xform {
-    display: flex;
-    width: 100%;
-    margin: auto;
-    justify-content: center;
-  }
-
-  .searchx {
-    width: 90%;
-    border-radius: 8px;
-  }
-
-  #profileicons {
-    height: 28px;
-    margin-top: -6px;
-    margin-right: 8px;
-  }
-
-  .drop-off select,
-  .pickup select,
-  span {
-    font-size: 14px;
-  }
-
-  .similar {
-    height: 300px;
-    width: 95%;
-    border-radius: 15px;
-    margin: 1 auto;
-    margin-top: 3rem;
-  }
-
-  .similar h3 {
-    font-size: 28px;
-    line-height: 31px;
-    width: 90%;
-  }
-
-  .similar p {
-    font-size: 15px;
-    width: 90%;
-  }
-
-  .section2 {
-    display: grid;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .pickup,
-  .drop-off {
-    border-radius: 8px;
-    width: 92%;
-    padding: 15px 12px;
-    margin: 1px auto;
+  .rec-carcontainer {
+    grid-template-columns: 100%;
     overflow: hidden;
   }
 
-  .sec2switch button {
-    display: block;
-    width: 60px;
-    margin: auto;
-  }
-
-  .popularcars {
-    width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    height: 505px;
-  }
-
-  #pop-header,
-  #rec-header,
-  #mobilehp {
-    margin: 0 2rem;
-  }
-
-  .mobileview {
-    display: flex;
-  }
-
-  .car-container {
-    width: 1500px;
-    overflow-x: scroll;
-  }
-
-  .car-container .cardesign {
-    height: 75%;
-    width: 65%;
-  }
-
-  .rec-carcontainer {
-    display: grid;
-    grid-template-columns: 100%;
-    gap: 30px;
-  }
-
-  .metax {
-    display: grid;
-    grid-template-columns: 70% 35%;
-  }
-
-  .rec-carcontainer .carspec {
-    display: grid;
-    gap: 8px;
-    align-items: center;
-  }
-
-  .rec-carcontainer .carspec div {
-    margin: 0;
-  }
-
-  .rec-carcontainer .carspec div span {
-    text-align: start;
-    margin: auto 4px;
-  }
-
-  .rec-carcontainer .cardesign {
-    height: min-content;
-    width: 90%;
-    margin: auto;
-    margin-left: -6px;
-    padding: 22px;
-  }
-
-  .rec-carcontainer .cardesign .carprice {
-    padding: 10px;
-  }
-
-  .rec-carcontainer .carimg {
-    padding: 7%;
-  }
-
-  .showcars {
-    margin-top: 34px;
-  }
-
-  #detail-btn {
-    margin: -17px 0 10px 1px;
-  }
-
-  footer .part1 {
-    display: grid;
-    margin: 22px;
-  }
-
   .footernav {
-    display: grid;
     grid-template-columns: 100%;
     line-height: 30px;
     gap: 10px 55px;
     overflow: hidden;
-  }
-
-  #footerprivacy ul {
-    gap: 55px;
-    overflow: hidden;
-  }
-
-  .mobilecopyright {
-    display: flex;
-    margin: 20px;
-    font-weight: 500;
   }
 }

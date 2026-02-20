@@ -115,6 +115,14 @@ button {
   cursor: pointer;
 }
 
+.hero-cars img {
+  display: block;
+  position: relative;
+  left: 35%;
+  width: 55%;
+  height: 40%;
+}
+
 .sec2switch {
   width: 60px;
   margin-top: 10px;

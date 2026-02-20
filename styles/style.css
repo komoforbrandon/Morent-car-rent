@@ -118,9 +118,9 @@ button {
 .hero-cars img {
   display: block;
   position: relative;
-  left: 35%;
-  width: 55%;
-  height: 40%;
+  left: 32%;
+  width: 60%;
+  height: 42%;
 }
 
 .sec2switch {
@@ -324,11 +324,12 @@ footer .last {
     display: flex;
     justify-content: center;
   }
+
   .hero-cars img {
     left: 0;
     right: 0;
-    width: 65%;
-    height: 50%;
+    width: 70%;
+    height: 60%;
   }
 
   .sec2switch {
